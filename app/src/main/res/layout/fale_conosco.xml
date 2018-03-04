@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Nossos Produtos"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textColor="@color/marrom"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:onClick="nossosProdutos">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Fale Conosco"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textColor="@color/marrom"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="sans-serif"
+        android:onClick="faleConosco">
+    </TextView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para mais informações, dúvidas ou sugestões entre em contato conosco. Retornaremos o mais breve possível e teremos o maior prazer em respondê-los."
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/strings">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/local">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereço: Av. Elton Silva, 00 - Vinhedo - SP"
+            android:textSize="15dp"
+            android:textColor="@color/strings"
+            android:layout_marginLeft="25dp">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/tel">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fone: 011 1234-5678"
+            android:textSize="15dp"
+            android:textColor="@color/strings"
+            android:layout_marginLeft="25dp">
+        </TextView>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:text="Ligar"
+        android:fontFamily="sans-serif"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#e7ddb5"
+        android:id="@+id/btLigar"
+        android:background="@color/marrom"
+        android:onClick="telefonar">
+    </Button>
+
+</LinearLayout>

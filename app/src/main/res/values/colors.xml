@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa31a</color>
+    <color name="colorPrimaryDark">#ffa31a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="marrom">#4d2600</color>
+    <color name="strings">#000000</color>
+    <color name="botao">#ffa31a</color>
+    <color name="fundo">#ffd699</color>
+</resources>
